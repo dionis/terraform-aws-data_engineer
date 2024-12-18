@@ -17,3 +17,19 @@ An Infrastructure project with Terraform
 - Using modules to organize Terraform code.
 - Secure handling of credentials (without including them in code).
 - Configuring IAM policies for access control.
+
+# Install and deploy process
+
+ It's necessary obtain the AWS user access key and update the variables:
+   - aws_acces_key 
+   - aws_secret_key
+
+   in file terraform.tfvars
+
+ For deploying execute command:
+ 
+    terraform init
+    terraform plan
+    terraform apply
+
+  
